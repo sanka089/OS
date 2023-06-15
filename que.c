@@ -4,17 +4,17 @@
 
 {
     int n,bt[30],at[30],bts[30]={0},wait_t[30],turn_ar_t[30],av_wt_t=0,avturn_ar_t=0,i,j;
-    printf("Please enter the total number of processes(maximum 30):");  // the maximum process that be used to calculate is specified.
+    printf("Please enter the total number of processes(maximum 30):");  
     scanf("%d",&n);
 
     printf("\nEnter The Process Burst Time");
-    for(i=0;i<n;i++)  // burst time for every process will be taken as input
+    for(i=0;i<n;i++)  
     {
         printf("P[%d]:",i);
         scanf("%d",&bt[i]);
     }
      printf("\nEnter The Arrival Time");
-    for(i=0;i<n;i++)  // burst time for every process will be taken as input
+    for(i=0;i<n;i++)  
     {
         printf("AT[%d]:",i);
         scanf("%d",&at[i]);
